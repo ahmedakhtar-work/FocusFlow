@@ -1,0 +1,25 @@
+:root {
+  --bg: #f5f8fb;
+  --card-bg: #ffffff;
+  --accent: #0fb8ff;
+  --muted: #6b7785;
+  --danger: #ff6b6b;
+  font-family: Inter, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+}
+
+*{box-sizing:border-box}
+html,body{height:100%;margin:0;background:linear-gradient(180deg,#f5f8fb,#eaf2f7);color:#122; -webkit-font-smoothing:antialiased}
+.opts-wrap{max-width:780px;margin:18px auto;padding:18px}
+h1{margin:0 0 14px;font-size:20px;color:#072033}
+.panel{background:var(--card-bg);border-radius:12px;padding:14px;margin-bottom:14px;box-shadow:0 6px 20px rgba(10,20,30,0.06);border:1px solid rgba(2,8,12,0.02)}
+label{font-weight:700;color:#0b2b3a;margin-bottom:8px;display:block}
+.hint{font-weight:400;color:var(--muted);font-size:12px;margin-left:6px}
+textarea{width:100%;min-height:72px;padding:10px;border-radius:8px;border:1px solid #e6eef6;background:#fbfeff;font-family:monospace;resize:vertical}
+input[type="password"]{width:100%;padding:10px;border-radius:8px;border:1px solid #e6eef6;background:#fbfeff}
+.row{display:flex;justify-content:flex-end;margin-top:10px}
+.btn{background:var(--accent);color:#012;padding:8px 12px;border-radius:8px;border:none;cursor:pointer;font-weight:700}
+.btn.save{background:linear-gradient(90deg,#0fb8ff,#66d9ff)}
+.btn.reset{background:var(--danger);color:#fff}
+.danger .tiny{color:var(--muted);font-size:12px;margin-top:8px}
+.opts-footer{display:flex;justify-content:space-between;align-items:center;margin-top:10px;color:var(--muted)}
+.opts-footer .social a{margin-left:10px;color:var(--muted);text-decoration:none;font-weight:600}

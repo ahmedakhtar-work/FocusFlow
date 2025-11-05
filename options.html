@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>FocusFlow — Settings</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <link rel="stylesheet" href="options.css" />
+</head>
+<body>
+  <div class="opts-wrap">
+    <h1>FocusFlow Settings</h1>
+
+    <section class="panel">
+      <label>Allowed Keywords <span class="hint">(comma-separated)</span></label>
+      <textarea id="keywords" placeholder="e.g. tutorial, lecture, how to"></textarea>
+      <div class="row">
+        <button id="save-keywords" class="btn save">Save Keywords</button>
+      </div>
+    </section>
+
+    <section class="panel">
+      <label>Whitelisted Channels <span class="hint">(exact or partial names)</span></label>
+      <textarea id="channels" placeholder="e.g. Khan Academy, CrashCourse"></textarea>
+      <div class="row">
+        <button id="save-channels" class="btn save">Save Channels</button>
+      </div>
+    </section>
+
+    <section class="panel">
+      <label>Reset Password</label>
+      <input id="new-password" type="password" placeholder="New password (6–9 digits)" />
+      <div class="row">
+        <button id="save-password" class="btn save">Update Password</button>
+      </div>
+    </section>
+
+    <section class="panel danger">
+      <button id="reset-all" class="btn reset">Reset All Settings</button>
+      <p class="tiny">This clears saved keywords, channels, and password.</p>
+    </section>
+
+    <footer class="opts-footer">
+      <div class="made">— Made by Ahmed Akhtar</div>
+      <div class="social">
+        <a href="https://twitter.com/ahmedakhtarwork" target="_blank" rel="noreferrer" title="Twitter">Twitter</a>
+        <a href="https://instagram.com/ahmedakhtar.work" target="_blank" rel="noreferrer" title="Instagram">Instagram</a>
+        <a href="https://github.com/ahmedakhtar-work" target="_blank" rel="noreferrer" title="GitHub">GitHub</a>
+      </div>
+    </footer>
+  </div>
+
+  <script src="options.js"></script>
+</body>
+</html>
