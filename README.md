@@ -43,5 +43,6 @@ When Focus Mode is active, the feed refreshes automatically to show only educati
 4. Click Load unpacked → select the FocusFlow folder.
 5. Activate the extension and enjoy a cleaner, study-friendly YouTube.
 
+[![Watch the demo](https://img.youtube.com/vi/ADcCURO9Evc/0.jpg)](https://youtu.be/ADcCURO9Evc)
 
    
